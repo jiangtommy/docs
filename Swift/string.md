@@ -28,4 +28,25 @@ strObjC.length // 11
 var strSwift:String = "hello world"
 strSwift.characters.count // 11
 ```
-#### 特殊字符
+#### 字符串插值 String Interpolation
+`\(other Type)`
+
+#### 前后缀 Prefix and Suffix
+`.hasPrefix` and `.hasSuffix`    
+`str1.hasPrefix(str2)`   
+`str1.hasSuffix(str2)`
+
+#### trim
+```Swift
+var s6 = "     !hi!!!!     "
+s6.trimmingCharacters(in: CharacterSet.whitespaces) // "!hi!!!!"
+s6.trimmingCharacters(in: CharacterSet.init(charactersIn: " !")) // "hi"
+```
+
+#### split
+```Swift
+var s7 = "welcome to play swift"
+s7.components(separatedBy: " ") //["welcome", "to", "play", "swift"]
+```
+
+#### join
