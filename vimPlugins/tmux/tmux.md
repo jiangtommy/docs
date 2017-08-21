@@ -1,4 +1,4 @@
-##tmux
+##tmux   
 **notes:** `<prefix>` means prefix for tmux, default `ctrl + b`
 #### basic usage
 `tmux new -s myname`: create a new session   
